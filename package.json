@@ -1,0 +1,25 @@
+{
+  "name": "parcel_env",
+  "version": "1.0.0",
+  "description": "create a web project with typescript, vue and bundle with parcel.",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "clean": "rm -r dist"
+  },
+  "keywords": [ "parcel", "typescript", "vue" ],
+  "author": "IsTree",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10",
+    "typescript": "^4.0.2",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.3"
+  }
+}

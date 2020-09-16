@@ -1,0 +1,18 @@
+.head {
+    padding: 0 $paddingSide;
+    height: $headHeight;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.link-list {
+    display: flex;
+}
+
+.link-list-item {
+    
+    &:not(:first-of-type) {
+        margin-left: 10px;
+    }
+}
