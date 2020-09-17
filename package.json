@@ -7,7 +7,11 @@
     "build": "parcel build src/index.html",
     "clean": "rm -r dist"
   },
-  "keywords": [ "parcel", "typescript", "vue" ],
+  "keywords": [
+    "parcel",
+    "typescript",
+    "vue"
+  ],
   "author": "IsTree",
   "license": "MIT",
   "devDependencies": {
@@ -21,5 +25,9 @@
   "dependencies": {
     "vue": "^2.6.12",
     "vue-router": "^3.4.3"
+  },
+  "alias": {
+    "aliasComps": "./src/components",
+    "aliasPages": "./src/pages"
   }
 }

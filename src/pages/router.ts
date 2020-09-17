@@ -6,8 +6,8 @@ Vue.use(VueRouter);
 const router = new VueRouter({
     mode: 'history',
     routes: [
-        { path: '/', component: () => import('./pages/Home.vue') },
-        { path: '/about', component: () => import('./pages/About.vue') },
+        { path: '/', component: () => import('aliasPages/Home.vue') },
+        { path: '/about', component: () => import('aliasPages/About.vue') },
     ]
 });
 
