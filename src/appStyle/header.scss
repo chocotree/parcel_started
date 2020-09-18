@@ -16,3 +16,11 @@
         margin-left: 10px;
     }
 }
+
+.link { // <a> tag
+    color: $secondary; 
+
+    &.active { // with <NavLink />
+        color: $primary;
+    }
+}
